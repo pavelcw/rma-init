@@ -3,12 +3,12 @@
 #
 ### BEGIN INIT INFO
 # Provides:          rma
-# Required-Start:    $remote_fs $syslog $time
-# Required-Stop:     $remote_fs $syslog $time
-# Should-Start:      $network $named 
-# Should-Stop:       $network $named 
-# Default-Start:     2 3 4 5
-# Default-Stop:	     0 1 6
+# Required-Start:    $syslog $time
+# Required-Stop:     $syslog $time
+# Should-Start:      $network
+# Should-Stop:       $network
+# Default-Start:     3 4 5
+# Default-Stop:	     0 1 2 6
 # Short-Description: Regular background program processing daemon
 # Description:       Hostmonitor RMA agent init script for debian
 ### END INIT INFO
